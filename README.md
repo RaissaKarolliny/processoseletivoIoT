@@ -14,7 +14,7 @@ O sistema simulado consiste em um dispositivo com botões físicos, onde cada bo
 
 ## 2️⃣ Arquitetura do Sistema Embarcado
 
-<img src="./assets/circuito.png" width="300">
+<img src="./assets/Circuito.png" width="300">
 
  **Bibliotecas Utilizadas**
 
