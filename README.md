@@ -10,7 +10,7 @@ Este projeto tem como objetivo desenvolver um sistema embarcado assistivo para a
 
 O sistema simulado consiste em um dispositivo com botões físicos, onde cada botão representa uma ação ou necessidade específica, como “estou com fome”, “quero água” ou “preciso de ajuda”. Ao pressionar um botão, o dispositivo emite um som correspondente e ativa um LED indicador, fornecendo feedback auditivo e visual.(Segue abaixo uma imagem do protótipo)
 
-<img src="./assets/prototipo.png" width="300">
+<img src="./assets/Prototipo.png" width="300">
 
 ## 2️⃣ Arquitetura do Sistema Embarcado
 
