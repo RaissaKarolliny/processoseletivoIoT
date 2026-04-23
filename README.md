@@ -1,8 +1,9 @@
-Relatório do Projeto – Sistema Embarcado Assistivo
+# Processo Seletivo – Intensivo Maker | IoT
+## Etapa Prática – Sistemas Embarcados
 
-Identificação do Candidato
+**Relatório do Projeto – Sistema Embarcado Assistivo**
 
-Nome completo: Raissa Karoliny da Silva Rodrigues
+Identificação do Candidato: Raissa Karoliny da Silva Rodrigues
 
 ## 1️⃣ Visão Geral da Solução
 
@@ -10,11 +11,11 @@ Este projeto tem como objetivo desenvolver um sistema embarcado assistivo para a
 
 O sistema simulado consiste em um dispositivo com botões físicos, onde cada botão representa uma ação ou necessidade específica, como “estou com fome”, “quero água” ou “preciso de ajuda”. Ao pressionar um botão, o dispositivo emite um som correspondente e ativa um LED indicador, fornecendo feedback auditivo e visual.(Segue abaixo uma imagem do protótipo)
 
-<img src="./assets/prototipo.png" width="300">
+<img src="./assets/prototipo.png" width="500">
 
 ## 2️⃣ Arquitetura do Sistema Embarcado
 
-<img src="./assets/circuito.png" width="300">
+<img src="./assets/Circuito.png" width="300">
 
  **Bibliotecas Utilizadas**
 
@@ -75,11 +76,15 @@ Vale ressaltar que, por se tratar de uma simulação, os botões não estão sen
 O sistema exibe no display a mensagem correspondente à ação, aciona o LED e emite o som associado, de acordo com o botão pressionado, atendendo plenamente ao objetivo proposto pela minha solução.
 
 ## 6️⃣ Comentários Adicionais
+ O arquivo ci.yml foi alterado para:
+ " path: .
+   expect_text: 'SIMULACAO_OK'"
+no intuito de finalizar a simulação quando encontra o 'SIMULACAO_OK'.
 
 **Dificuldades encontradas**
 - Definir a problemática que o sistema iria resolver.
 - Simular as funções em um curto espaço de tempo, por conta do actions;
-- Importar biblioteca para usar o display.
+- Importar biblioteca para usar o display, então coloquei no proprio código main.py as funções de display.
 
 **Limitações**
 - Sons representados de forma simplificada (buzzer)

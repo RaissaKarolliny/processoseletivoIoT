@@ -155,6 +155,23 @@ def acao_ok():
     som_longo()
     acionar(led_verde)
     print("Ação: Estou bem")
+    
+# função para ler os botões e executar a ação correspondente.
+# como estou usando a simulação essa função não é chmada. 
+# Seria utilizada em um loop infinito para ficar lendo os botões constantemente em um ambiente não simulado.
+def ler_botoes():
+    if botao_vermelho.value() == 0:
+        acao_ajuda()
+        time.sleep(0.3)  # debounce
+
+    elif botao_azul.value() == 0:
+        acao_banheiro()
+        time.sleep(0.3)
+
+    elif botao_verde.value() == 0:
+        acao_ok()
+        time.sleep(0.3)  
+
 #função para simular o teste automático 
 def modo_teste():
     print("Iniciando teste automático")
